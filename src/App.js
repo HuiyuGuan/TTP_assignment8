@@ -55,7 +55,7 @@ function App() {
   }
 
   return (
-    <>
+    <div>
       <Navbar />
       <button onClick={() => addRow()}>Add row</button>
       <button onClick={() => addCells()}>Add column</button>
@@ -75,7 +75,7 @@ function App() {
         <Table rows={rows} cells={cells} color={color} />
         <Footer />
       </div>
-    </>
+    </div>
   )
 
 
